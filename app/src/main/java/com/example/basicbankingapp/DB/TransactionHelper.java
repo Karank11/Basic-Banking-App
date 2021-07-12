@@ -9,11 +9,12 @@ import com.example.basicbankingapp.DB.TransactionContract.TransactionEntry;
 import com.example.basicbankingapp.Data.Transaction;
 
 public class TransactionHelper extends SQLiteOpenHelper {
+
     /** Name of the database file */
     private static final String DATABASE_NAME = "transaction.db";
 
-    /**
-     * Database version. If you change the database schema, you must increment the database version.*/
+
+    /** Database version. If you change the database schema, you must increment the database version.*/
     private static final int DATABASE_VERSION = 1;
 
     public TransactionHelper(Context context) {

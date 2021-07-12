@@ -1,5 +1,6 @@
 package com.example.basicbankingapp.Data;
 
+// Transaction Class
 public class Transaction {
     private String fromUser;
     private String ToUser;

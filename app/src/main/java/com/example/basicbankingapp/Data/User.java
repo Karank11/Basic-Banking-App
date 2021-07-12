@@ -1,5 +1,6 @@
 package com.example.basicbankingapp.Data;
 
+//User Class
 public class User {
     private String name;
     private int accountNumber;

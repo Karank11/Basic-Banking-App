@@ -9,13 +9,13 @@
     tools:context=".UI.UserData">
 
     <ImageView
-        android:padding="5dp"
-        android:src="@drawable/ic_baseline_person_24"
-        android:requiresFadingEdge="horizontal"
-        android:fadingEdge="vertical"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:fadingEdge="vertical"
+        android:padding="5dp"
+        android:requiresFadingEdge="horizontal"
+        android:src="@drawable/ic_baseline_person_24" />
 
     <LinearLayout
         android:padding="5dp"

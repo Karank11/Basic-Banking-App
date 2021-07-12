@@ -13,7 +13,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/bank_logo"
         android:layout_width="match_parent"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:layout_height="250dp"
         android:src="@drawable/bank_logo"/>
 
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/averia_serif_libre_light"
         android:text="@string/banking_system_app"
         android:textColor="#DD433C55"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="80dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="80dp"
         android:layout_marginRight="80dp"
         android:backgroundTint="#0099ff"
         android:onClick="showAllUsers"
